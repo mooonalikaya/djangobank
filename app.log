@@ -1,0 +1,290 @@
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'django-admindocs-docroot' not found. 'django-admindocs-docroot' is not a valid view function or pattern name.
+/home/monna/Lessons/RestFramework/PyWebflow/PyWebflow/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/home/userprofile/add/
+Traceback (most recent call last):
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1804, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 926, in log_addition
+    object_repr=str(obj),
+  File "/home/monna/Lessons/RestFramework/PyWebflow/home/models.py", line 20, in __str__
+    return f"{self.user.first_name.title()} {self.user.last_name.title()(0)}."
+TypeError: 'str' object is not callable
+Watching for file changes with StatReloader
+Internal Server Error: /admin/home/userprofile/add/
+Traceback (most recent call last):
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1804, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 926, in log_addition
+    object_repr=str(obj),
+  File "/home/monna/Lessons/RestFramework/PyWebflow/home/models.py", line 20, in __str__
+    return f"{self.user.first_name.title()} {self.user.last_name.title()(0)}."
+TypeError: 'str' object is not callable
+Internal Server Error: /admin/home/userprofile/add/
+Traceback (most recent call last):
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1804, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 926, in log_addition
+    object_repr=str(obj),
+  File "/home/monna/Lessons/RestFramework/PyWebflow/home/models.py", line 20, in __str__
+    return f"{self.user.first_name.title()} {self.user.last_name.title()(0)}."
+TypeError: 'str' object is not callable
+/home/monna/Lessons/RestFramework/PyWebflow/home/models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/home/userprofile/add/
+Traceback (most recent call last):
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1804, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 926, in log_addition
+    object_repr=str(obj),
+  File "/home/monna/Lessons/RestFramework/PyWebflow/home/models.py", line 20, in __str__
+    return f"{self.user.first_name.title()} {self.user.last_name.title()(0)}"
+TypeError: 'str' object is not callable
+/home/monna/Lessons/RestFramework/PyWebflow/PyWebflow/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/monna/Lessons/RestFramework/PyWebflow/PyWebflow/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Internal Server Error: /admin/home/userprofile/add/
+Traceback (most recent call last):
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1804, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 926, in log_addition
+    object_repr=str(obj),
+  File "/home/monna/Lessons/RestFramework/PyWebflow/home/models.py", line 20, in __str__
+    return f"{self.user.first_name.title()} {self.user.last_name.title()(0)}"
+TypeError: 'str' object is not callable
+/home/monna/Lessons/RestFramework/PyWebflow/PyWebflow/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+/home/monna/Lessons/RestFramework/PyWebflow/home/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /admin/home/userprofile/add/
+Traceback (most recent call last):
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1804, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 926, in log_addition
+    object_repr=str(obj),
+  File "/home/monna/Lessons/RestFramework/PyWebflow/home/models.py", line 20, in __str__
+    return f"{self.user.first_name.title()} {self.user.last_name.title()(0)}"
+TypeError: 'str' object is not callable
+Internal Server Error: /admin/home/userprofile/add/
+Traceback (most recent call last):
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 1804, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/monna/Lessons/RestFramework/PyWebflow/venv/lib/python3.10/site-packages/django/contrib/admin/options.py", line 926, in log_addition
+    object_repr=str(obj),
+  File "/home/monna/Lessons/RestFramework/PyWebflow/home/models.py", line 20, in __str__
+    return f"{self.user.first_name.title()} {self.user.last_name.title()(0)}"
+TypeError: 'str' object is not callable
+/home/monna/Lessons/RestFramework/PyWebflow/home/models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
